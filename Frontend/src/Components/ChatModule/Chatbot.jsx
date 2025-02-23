@@ -1,10 +1,10 @@
 import Styles from "./Chatbot.module.css";
-import Logo from "../../../public/logo.svg";
-import Sidebar from "../Sidebar/Sidebar"
-import Upload from "../../../public/upload.svg";
-import Attachment from "../../../public/attachment.svg";
-import icon from "../../../public/icon.svg";
-import seperator from "../../../public/seperator.svg";
+import Logo from "/logo.svg";
+import Sidebar from "../Sidebar/Sidebar";
+import Upload from "/Upload.svg";
+import Attachment from "/Attachment.svg";
+import icon from "/icon.svg";
+import seperator from "/seperator.svg";
 const Chatbot = () => {
     const handleInfoClick = () => {
       alert("Info Icon Clicked!"); 
