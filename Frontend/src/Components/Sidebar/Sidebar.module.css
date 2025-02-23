@@ -1,0 +1,71 @@
+.sidebar{
+    width: 20%;
+    height: 93vh;
+    background-color:#393A3B;
+    border: 2px solid #393A3B;
+    border-radius: 10px;
+    margin: 20px;
+
+}   
+.new{
+    width: 50%;
+    background-color:#1C1C1C;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.newChat{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding: 2px;
+    gap: 8px;
+}
+.chatRecord{
+    margin: 10px;
+    line-height: 1;
+    height: 60vh;
+}
+.recent{
+    color: #BDBDBD;
+}
+.old{
+    color: #BDBDBD;
+}
+.Chats{
+    color: #FFFFFF;
+}
+.bottomSection{
+    margin: 15px;
+}
+.ReportVault{
+    border: 2.5px solid #4A558A;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    a{
+        display: flex;
+        color: #BDBDBD;
+        text-decoration: none;
+        align-items: center;
+        font-size: large;
+        padding: 10px;
+        gap: 6px;
+    }
+}
+.profile{
+     border: 2.5px solid #4A558A;
+    border-radius: 10px;
+    a{
+        display: flex;
+        color: #BDBDBD;
+        text-decoration: none;
+        align-items: center;
+        font-size: large;
+        padding: 10px;
+        gap: 6px;
+    }
+}
