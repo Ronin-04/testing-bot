@@ -1,16 +1,15 @@
-
-import './App.css'
+import "./App.css";
 // import Sidebar from './Components/Sidebar/Sidebar'
-import Chatbot from './Components/ChatModule/Chatbot'
-
+import Chatbot from "./Components/ChatModule/Chatbot";
+import ReportVault from "./Components/ReportVault/Reportvault";
 
 function App() {
-
   return (
     <>
-        <Chatbot></Chatbot>
+      {/* <Chatbot></Chatbot> */}
+      <ReportVault></ReportVault>
     </>
   );
 }
 
-export default App
+export default App;

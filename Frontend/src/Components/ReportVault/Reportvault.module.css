@@ -1,0 +1,55 @@
+body {
+  background-color: #292a2d;
+  background-image: url("../public/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  width: auto;
+  height: 60px;
+  
+}
+
+.searchcontainer {
+  width: 75%;
+  background-color: #393a3b;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 60px;
+}
+
+.searchIcon {
+  color: #888;
+  pointer-events: none;
+  padding-left: 20px;
+  pointer-events: none;
+}
+
+.Search {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 400;
+  outline: none;
+  border: 0px solid;
+  padding: 8px 12px 10px 20px;
+  background: transparent;
+  color: #777777;
+}
+.filebtn {
+  background-color: transparent;
+  outline: none;
+  border: 0px solid;
+}
+.folderbtn {
+  background-color: transparent;
+  outline: none;
+  border: 0px solid;
+}
